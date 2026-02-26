@@ -5,95 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Priyanshu Kumar</title>
+    <meta name="description" content="Priyanshu Kumar — Chemical Engineering (Integrated M.Tech, Energy) student at ICT Mumbai. Portfolio, internships, skills, education, and contact." />
     <link rel="icon" type="image/x-icon" href="assets/img/logo.jpg">
     <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/newcss.css" />
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
-    />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
   </head>
 
   <body oncontextmenu="return false">
+    <!-- ================= Header ================= -->
     <header class="header" id="header">
-      <nav class="nav container">
+      <nav class="nav container" aria-label="Main navigation">
         <a href="#" class="nav__logo">Priyanshu Kumar</a>
-        <div class="nav__menu" id="nav-menu">
+
+        <div class="nav__menu" id="nav-menu" aria-hidden="true">
           <ul class="nav__list grid">
             <li class="nav__item">
               <a href="#home" class="nav__link active-link">
-                <i class="uil uil-estate nav__icon"></i>Home
+                <i class="uil uil-estate nav__icon" aria-hidden="true"></i>Home
               </a>
             </li>
             <li class="nav__item">
               <a href="#about" class="nav__link">
-                <i class="uil uil-user nav__icon"></i>About
+                <i class="uil uil-user nav__icon" aria-hidden="true"></i>About
               </a>
             </li>
             <li class="nav__item">
               <a href="#skills" class="nav__link">
-                <i class="uil uil-file-alt nav__icon"></i>Skills
+                <i class="uil uil-file-alt nav__icon" aria-hidden="true"></i>Skills
               </a>
             </li>
             <li class="nav__item">
               <a href="#qualification" class="nav__link">
-                <i class="uil uil-briefcase-alt nav__icon"></i>Education
+                <i class="uil uil-briefcase-alt nav__icon" aria-hidden="true"></i>Education
               </a>
             </li>
             <li class="nav__item">
               <a href="#portfolio" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i>Internships
+                <i class="uil uil-scenery nav__icon" aria-hidden="true"></i>Internships
               </a>
             </li>
             <li class="nav__item">
               <a href="#contact" class="nav__link">
-                <i class="uil uil-message nav__icon"></i>Contact Me
+                <i class="uil uil-message nav__icon" aria-hidden="true"></i>Contact Me
               </a>
             </li>
           </ul>
-          <i class="uil uil-times nav__close" id="nav-close"></i>
+          <button class="uil uil-times nav__close" id="nav-close" aria-label="Close menu"></button>
         </div>
+
         <div class="nav__btns">
           <!-- Theme change button -->
-          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <button class="uil uil-moon change-theme" id="theme-button" aria-label="Toggle theme"></button>
 
-          <div class="nav__toggle" id="nav-toggle">
+          <button class="nav__toggle" id="nav-toggle" aria-label="Open menu">
             <i class="uil uil-apps"></i>
-          </div>
+          </button>
         </div>
       </nav>
     </header>
-    <!-- main-->
 
+    <!-- ================= Main ================= -->
     <main class="main">
-      <!--========================= Home =====================-->
-
-      <section class="home section" id="home">
+      <!-- ============ Home ============ -->
+      <section class="home section" id="home" aria-label="Home">
         <div class="home__container container grid">
           <div class="home__content grid">
-            <div class="home__social">
+            <div class="home__social" aria-label="Social links">
               <a
                 href="https://www.linkedin.com/in/priyanshu198/"
                 target="_blank"
+                rel="noopener noreferrer"
                 class="home__social-icon"
+                aria-label="LinkedIn - Priyanshu"
               >
-                <i class="uil uil-linkedin-alt home__icon"></i>
+                <i class="uil uil-linkedin-alt home__icon" aria-hidden="true"></i>
               </a>
 
               <a
                 href="https://github.com/priyanshu198"
                 target="_blank"
+                rel="noopener noreferrer"
                 class="home__social-icon"
+                aria-label="GitHub - Priyanshu"
               >
-                <i class="uil uil-github-alt home__icon"></i>
+                <i class="uil uil-github-alt home__icon" aria-hidden="true"></i>
               </a>
             </div>
-            <div class="home__img">
+
+            <div class="home__img" aria-hidden="true">
               <svg
                 class="home__blob"
                 viewBox="0 0 200 187"
                 xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
               >
                 <mask id="mask0" mask-type="alpha">
                   <path
@@ -114,63 +118,62 @@
                     class="home__blob-img"
                     x="-79"
                     y="-46"
-                    xlink:href="assets/img/Pro.jpg"
+                    href="assets/img/Pro.jpg"
+                    width="300"
+                    height="300"
+                    aria-label="Profile image"
                   />
                 </g>
               </svg>
             </div>
+
             <div class="home__data">
               <h1 class="home__title">Hi, I'm Priyanshu Kumar</h1>
-              <h3 class="home__subtitle">
-                Chemical Engineering Student
-              </h3>
+              <h3 class="home__subtitle">Chemical Engineering Student</h3>
               <p class="home__description">
-                A Fourth-year undergraduate engineering student at
-                <strong>Institute of Chemical Technology (ICT) </strong>, Mumbai.
+                A fourth-year Integrated M.Tech student in Chemical Engineering (Energy specialization) at
+                <strong>Institute of Chemical Technology (ICT)</strong>, Mumbai.
               </p>
               <a href="#contact" class="button button--flex">
-                Contact me<i class="uil uil-message button__icon"></i>
+                Contact me<i class="uil uil-message button__icon" aria-hidden="true"></i>
               </a>
             </div>
           </div>
 
           <div class="home__scroll">
-            <a href="#about" class="home__scroll-button button--flex">
-              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <a href="#about" class="home__scroll-button button--flex" aria-label="Scroll to About section">
+              <i class="uil uil-mouse-alt home__scroll-mouse" aria-hidden="true"></i>
               <span class="home__scroll-name">Scroll down</span>
-              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+              <i class="uil uil-arrow-down home__scroll-arrow" aria-hidden="true"></i>
             </a>
           </div>
         </div>
       </section>
 
-      <!--======================= About========================-->
-
-      <section class="about section" id="about">
+      <!-- ============ About ============ -->
+      <section class="about section" id="about" aria-label="About Me">
         <h2 class="section__title">About Me</h2>
         <span class="section__subtitle">My introduction</span>
 
         <div class="about__container container grid">
-          <img src="assets\img\about.jpeg" alt="" class="about__img" />
+          <img src="assets/img/about.jpeg" alt="Priyanshu in a professional setting" class="about__img" />
 
           <div class="about__data">
             <p class="about__description">
               I’m Priyanshu Kumar, a fourth-year Integrated M.Tech student in Chemical Engineering with a specialization in Energy at ICT Mumbai.
-
-I’m passionate about sustainable solutions and curious about how engineering can solve real-world problems. With a strong foundation in analytical thinking and a drive to learn, I’m eager to explore research and contribute to impactful projects.</p>
+              I’m passionate about sustainable solutions and curious about how engineering can solve real-world problems. With a strong foundation
+              in analytical thinking and a drive to learn, I’m eager to explore research and contribute to impactful projects.
+            </p>
 
             <div class="about__info">
               <div>
-                <span class="about__info-title">08.7+</span>
+                <span class="about__info-title">8.7+</span>
                 <span class="about__info-name">Aggregate <br />CGPA</span>
               </div>
 
               <div>
                 <span class="about__info-title">5</span>
-                <span class="about__info-name"
-                  >
-                  Internships</span
-                >
+                <span class="about__info-name">Internships</span>
               </div>
 
               <div>
@@ -180,76 +183,72 @@ I’m passionate about sustainable solutions and curious about how engineering c
             </div>
 
             <div class="about__buttons">
-              <a download="" href="https://drive.google.com/drive/folders/1Eh4khYAPvUr4rJgpsYWBUP53YLv6QkqU?usp=sharing" class="button button--flex">
-                Download CV<i class="fas fa-download button__icon"></i>
+              <a
+                download
+                href="https://drive.google.com/drive/folders/1Eh4khYAPvUr4rJgpsYWBUP53YLv6QkqU?usp=sharing"
+                class="button button--flex"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download CV<i class="fas fa-download button__icon" aria-hidden="true"></i>
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      <!--===================== SKILLS =====================-->
-
-      <section class="skills section" id="skills">
+      <!-- ============ Skills ============ -->
+      <section class="skills section" id="skills" aria-label="Skills">
         <h2 class="section__title">Skills</h2>
         <span class="section__subtitle">My technical level</span>
 
         <div class="skills__container container grid">
           <div>
-            <!--==================== Skill 1 =================-->
+            <!-- Skill 1 -->
             <div class="skills__content skills__open">
               <div class="skills__header">
-                <i class="fas fa-pencil-ruler skills__icon"></i>
-
+                <i class="fas fa-pencil-ruler skills__icon" aria-hidden="true"></i>
                 <div>
-                  <h1 class="skills__title">Laboratory & Analytical Skills</h1>
+                  <h1 class="skills__title">Laboratory &amp; Analytical Skills</h1>
                 </div>
-
-                <i class="uil uil-angle-down skills__arrow"></i>
+                <i class="uil uil-angle-down skills__arrow" aria-hidden="true"></i>
               </div>
-              
 
               <div class="skills__list grid">
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">Process Equipment Handling</h3>
                   </div>
-                  
                 </div>
-                
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Chromatography Techniques</h3>
-                    </div>
-                    
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Chromatography Techniques</h3>
                   </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Spectroscopy</h3>
-                    </div>
-                    
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Spectroscopy</h3>
                   </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Drying & Separation Processes</h3>
-                    </div>
-                   
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Drying &amp; Separation Processes</h3>
                   </div>
-                
-                
+                </div>
               </div>
             </div>
 
-            <!--==================== Skill 2 =================-->
+            <!-- Skill 2 -->
             <div class="skills__content skills__close">
               <div class="skills__header">
-                <i class="fas fa-code skills__icon"></i>
-
+                <i class="fas fa-code skills__icon" aria-hidden="true"></i>
                 <div>
-                  <h1 class="skills__title">Programming Language</h1>
+                  <h1 class="skills__title">Programming Languages</h1>
                 </div>
-
-                <i class="uil uil-angle-down skills__arrow"></i>
+                <i class="uil uil-angle-down skills__arrow" aria-hidden="true"></i>
               </div>
 
               <div class="skills__list grid">
@@ -257,41 +256,35 @@ I’m passionate about sustainable solutions and curious about how engineering c
                   <div class="skills__titles">
                     <h3 class="skills__name">C</h3>
                   </div>
-                  
                 </div>
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">Python</h3>
                   </div>
-                  
                 </div>
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">HTML & CSS</h3>
+                    <h3 class="skills__name">HTML &amp; CSS</h3>
                   </div>
-                  
                 </div>
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">JavaScript</h3>
                   </div>
-                  
                 </div>
-                
               </div>
             </div>
           </div>
 
           <div>
-            <!--==================== Skill 3 =================-->
+            <!-- Skill 3 -->
             <div class="skills__content skills__close">
               <div class="skills__header">
-                <i class="fas fa-swatchbook skills__icon"></i>
+                <i class="fas fa-swatchbook skills__icon" aria-hidden="true"></i>
                 <div>
-                  <h1 class="skills__title">Software & Simulation Tools</h1>
+                  <h1 class="skills__title">Software &amp; Simulation Tools</h1>
                 </div>
-
-                <i class="uil uil-angle-down skills__arrow"></i>
+                <i class="uil uil-angle-down skills__arrow" aria-hidden="true"></i>
               </div>
 
               <div class="skills__list grid">
@@ -299,113 +292,95 @@ I’m passionate about sustainable solutions and curious about how engineering c
                   <div class="skills__titles">
                     <h3 class="skills__name">MATLAB</h3>
                   </div>
-                  
                 </div>
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">Aspen Plus</h3>
                   </div>
-                  
-                
+                </div>
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">COMSOL</h3>
                   </div>
-                  
                 </div>
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">Concept Draw</h3>
+                    <h3 class="skills__name">ConceptDraw</h3>
                   </div>
-                  
                 </div>
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">MS Office</h3>
                   </div>
-                  
-                </div>
-                  
                 </div>
               </div>
             </div>
           </div>
+
         </div>
       </section>
 
-      <!--==================== Qualifications ==================-->
-
-      <section
-        class="qualification__section service__section"
-        id="qualification"
-      >
+      <!-- ============ Qualifications ============ -->
+      <section class="qualification__section service__section" id="qualification" aria-label="Qualifications">
         <h2 class="section__title">Qualification</h2>
         <span class="section__subtitle">My personal journey</span>
 
-        <div
-          class="qualification__container container grid services__container"
-        >
+        <div class="qualification__container container grid services__container">
           <div class="qualification__tabs">
             <div
               class="qualification__button button--flex qualification__active"
               data-target="#education"
+              role="tab"
+              aria-controls="education"
+              aria-selected="true"
             >
-              <i class="uil uil-graduation-cap qualification__icon"></i>
+              <i class="uil uil-graduation-cap qualification__icon" aria-hidden="true"></i>
               Education
             </div>
           </div>
 
           <div class="qualification__sections">
-            <!--====== Qualification Content 1 ======-->
+            <!-- Content: Education -->
             <div
               class="qualification__content qualifiation__active services__content"
               data-content
               id="education"
+              role="tabpanel"
+              aria-labelledby="education"
             >
-              <!--====== Qualification 1 ======-->
+              <!-- 10th -->
               <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">Class 1Oth</h3>
-                  <span class="qualification__subtitle"
-                    >Gyan Niketan <br />High School</span
-                  >
+                  <h3 class="qualification__title">Class 10th</h3>
+                  <span class="qualification__subtitle">Gyan Niketan <br />High School</span>
                   <div class="qualification__calender">
-                    <i class="uil uil-calendar-alt"></i>
+                    <i class="uil uil-calendar-alt" aria-hidden="true"></i>
                     - 2019
                   </div>
-                  <span
+                  <button
                     class="button button--flex button--small button--link services__button"
+                    type="button"
+                    aria-haspopup="dialog"
                   >
                     View More
-                    <i class="uil uil-arrow-right button__icon"></i>
-                  </span>
-                  <div class="services__modal">
+                    <i class="uil uil-arrow-right button__icon" aria-hidden="true"></i>
+                  </button>
+                  <div class="services__modal" role="dialog" aria-modal="true" aria-label="Class 10th Summary">
                     <div class="services__modal-content">
-                      <h4 class="services__modal-title">
-                        Class 10th Summary :
-                      </h4>
-                      <i class="uil uil-times services__modal-close"></i>
+                      <h4 class="services__modal-title">Class 10th Summary :</h4>
+                      <button class="uil uil-times services__modal-close" type="button" aria-label="Close"></button>
                       <ul class="services__modal-services grid">
                         <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>
-                            Subjects studied: Science, Maths, English,
-                            Social Studies,Sanskrit and Computer.
-                          </p>
+                          <i class="uil uil-check-circle services__moda-icon" aria-hidden="true"></i>
+                          <p>Subjects studied: Science, Maths, English, Social Studies, Sanskrit, and Computer.</p>
                         </li>
                         <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
+                          <i class="uil uil-check-circle services__moda-icon" aria-hidden="true"></i>
                           <p>Scored 91.4%</p>
                         </li>
                         <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p> NSO 2017-  Intretational Rank 284 & Zonal Rank 47</p>
+                          <i class="uil uil-check-circle services__moda-icon" aria-hidden="true"></i>
+                          <p>NSO 2017 — International Rank 284 &amp; Zonal Rank 47</p>
                         </li>
                       </ul>
                     </div>
@@ -418,7 +393,7 @@ I’m passionate about sustainable solutions and curious about how engineering c
                 </div>
               </div>
 
-              <!--====== Qualification 2 ======-->
+              <!-- 12th -->
               <div class="qualification__data">
                 <div></div>
 
@@ -426,48 +401,37 @@ I’m passionate about sustainable solutions and curious about how engineering c
                   <span class="qualification__rounder"></span>
                   <span class="qualification__line"></span>
                 </div>
+
                 <div>
                   <h3 class="qualification__title">Class 12th</h3>
-                  <span class="qualification__subtitle"
-                    >Patna Doon Public School <br />Pre University College</span
-                  >
+                  <span class="qualification__subtitle">Patna Doon Public School <br />Pre-University College</span>
                   <div class="qualification__calender">
-                    <i class="uil uil-calendar-alt"></i>
+                    <i class="uil uil-calendar-alt" aria-hidden="true"></i>
                     - 2021
                   </div>
-                  <span
+                  <button
                     class="button button--flex button--small button--link services__button"
+                    type="button"
+                    aria-haspopup="dialog"
                   >
                     View More
-                    <i class="uil uil-arrow-right button__icon"></i>
-                  </span>
-                  <div class="services__modal">
+                    <i class="uil uil-arrow-right button__icon" aria-hidden="true"></i>
+                  </button>
+                  <div class="services__modal" role="dialog" aria-modal="true" aria-label="Class 12th Summary">
                     <div class="services__modal-content">
-                      <h4 class="services__modal-title">
-                        Class 12th Summary :
-                      </h4>
-                      <i class="uil uil-times services__modal-close"></i>
+                      <h4 class="services__modal-title">Class 12th Summary :</h4>
+                      <button class="uil uil-times services__modal-close" type="button" aria-label="Close"></button>
                       <ul class="services__modal-services grid">
                         <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>
-                            Subjects studied: Physics, Chemistry, Maths,
-                            English & Physical Education.
-                          </li>
-                          <li class="services__modal-service">
-                            <i
-                              class="uil uil-check-circle services__moda-icon"
-                            ></i>
-                            <p>Also Qualified PRMO 2020 conducted by HBCSE.</p>
-                          </li>
-                          </p>
+                          <i class="uil uil-check-circle services__moda-icon" aria-hidden="true"></i>
+                          <p>Subjects studied: Physics, Chemistry, Maths, English &amp; Physical Education.</p>
                         </li>
                         <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
+                          <i class="uil uil-check-circle services__moda-icon" aria-hidden="true"></i>
+                          <p>Qualified PRMO 2020 conducted by HBCSE.</p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i class="uil uil-check-circle services__moda-icon" aria-hidden="true"></i>
                           <p>Scored 77.4%</p>
                         </li>
                       </ul>
@@ -476,83 +440,56 @@ I’m passionate about sustainable solutions and curious about how engineering c
                 </div>
               </div>
 
-              <!--====== Qualification 3 ======-->
+              <!-- College -->
               <div class="qualification__data">
                 <div>
                   <h3 class="qualification__title">College</h3>
-                  <span class="qualification__subtitle"
-                    >Institute of Chemical Technology (ICT), Mumbai</span
-                  >
+                  <span class="qualification__subtitle">Institute of Chemical Technology (ICT), Mumbai</span>
                   <div class="qualification__calender">
-                    <i class="uil uil-calendar-alt"></i>
+                    <i class="uil uil-calendar-alt" aria-hidden="true"></i>
                     2022 - 2027
                   </div>
-                  <span
+                  <button
                     class="button button--flex button--small button--link services__button"
+                    type="button"
+                    aria-haspopup="dialog"
                   >
                     View More
-                    <i class="uil uil-arrow-right button__icon"></i>
-                  </span>
-                  <div class="services__modal">
+                    <i class="uil uil-arrow-right button__icon" aria-hidden="true"></i>
+                  </button>
+                  <div class="services__modal" role="dialog" aria-modal="true" aria-label="College Summary">
                     <div class="services__modal-content">
                       <h4 class="services__modal-title">College Summary :</h4>
-                      <i class="uil uil-times services__modal-close"></i>
+                      <button class="uil uil-times services__modal-close" type="button" aria-label="Close"></button>
                       <ul class="services__modal-services grid">
                         <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__modal-icon"
-                          ></i>
-                          <p>
-                            Studying core subjects of Chemical Engg. ,having Specialization in Energy Sector. Having 14+ months of Industry experience.
-                          </p>
+                          <i class="uil uil-check-circle services__modal-icon" aria-hidden="true"></i>
+                          <p>Studying core Chemical Engineering with specialization in Energy. 14+ months of industry experience.</p>
                         </li>
                         <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__modal-icon"
-                          ></i>
-                          <p>Scored an aggregate of 8.80 CGPA till now.</p>
+                          <i class="uil uil-check-circle services__modal-icon" aria-hidden="true"></i>
+                          <p>Aggregate CGPA: 8.80 (till now).</p>
                         </li>
                         <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__modal-icon"
-                          ></i>
-                          <p>
-                            Technial Head @ Ecell-ICT-Iocb
-                          </p>
+                          <i class="uil uil-check-circle services__modal-icon" aria-hidden="true"></i>
+                          <p>Technical Head @ E-Cell ICT–IOCB.</p>
                         </li>
                         <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__modal-icon"
-                          ></i>
-                          <p>
-                            Develoved Website of My College club AiChe ICT-Iocb.
-                          </p>
+                          <i class="uil uil-check-circle services__modal-icon" aria-hidden="true"></i>
+                          <p>Developed website for AIChE ICT–IOCB club.</p>
                         </li>
                         <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__modal-icon"
-                          ></i>
-                          <p>
-                            Won 1st Prize in the CheMystery QUIZ directed by AiChe ICTIOCB.
-                          </p>
+                          <i class="uil uil-check-circle services__modal-icon" aria-hidden="true"></i>
+                          <p>Won 1st Prize in the CheMystery Quiz by AIChE ICT–IOCB.</p>
                         </li>
                         <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__modal-icon"
-                          ></i>
-                          <p>
-                           Runner Up Team in Entrepreneurial Ideation in E Summit 2024, by E-Cell ICT–IOCB
-                          </p>
+                          <i class="uil uil-check-circle services__modal-icon" aria-hidden="true"></i>
+                          <p>Runner-up team in Entrepreneurial Ideation at E-Summit 2024, E-Cell ICT–IOCB.</p>
                         </li>
                         <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__modal-icon"
-                          ></i>
-                          <p>
-                            Got 3rd Position (out of 10000 participants) in the Trading event by Stockgro in ICT Mumbai.
-                          </p>
+                          <i class="uil uil-check-circle services__modal-icon" aria-hidden="true"></i>
+                          <p>3rd position (out of 10,000 participants) in StockGro trading event at ICT Mumbai.</p>
                         </li>
-                        
                       </ul>
                     </div>
                   </div>
@@ -560,214 +497,225 @@ I’m passionate about sustainable solutions and curious about how engineering c
 
                 <div>
                   <span class="qualification__rounder"></span>
-                  <!--<span class="qualification__line"></span>-->
+                  <!-- <span class="qualification__line"></span> -->
                 </div>
               </div>
+
             </div>
           </div>
         </div>
       </section>
 
-      <!--=================== Portfolio ===================-->
-      <section class="portfolio section" id="portfolio">
+      <!-- ============ Portfolio / Internships ============ -->
+      <section class="portfolio section" id="portfolio" aria-label="Internships">
         <h2 class="section__title">Internships</h2>
         <span class="section__subtitle">My Work Experiences</span>
 
         <div class="portfolio__container container swiper-container">
           <div class="swiper-wrapper">
-            <!-- ------------------------portfollio 1-------------------- -->
+            <!-- 1 -->
             <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/ioc.jpg" class="portfolio__img" />
+              <img src="assets/img/ioc.jpg" alt="Indian Oil Corporation Refinery" class="portfolio__img" />
 
               <div class="portfolio__data">
                 <h3 class="portfolio__title">
-                  Indian Oil Corporation Ltd.in Vadodara (Gujrat Refinery)
+                  Indian Oil Corporation Ltd., Vadodara (Gujarat Refinery)
                 </h3>
                 <p class="portfolio__description">
-                  * Worked as a Vocational Trainee at the Atmospheric Distillation and Fluidized Catalytic Cracking Unit
-              (FCCU), analyzed processes and key equipment such as furnaces, riser etc.
-              <br>
-              * Led a project to evaluate the efficiency of a natural draft furnace in the FCC unit by analyzing heat input,
-                output, and fuel consumption to optimize performance.
+                  • Vocational Trainee at Atmospheric Distillation and FCCU; analyzed processes and key equipment (furnaces, riser, etc.).<br>
+                  • Led a project to evaluate the efficiency of a natural draft furnace in FCC by analyzing heat input, output, and fuel consumption to optimize performance.
                 </p>
                 <a
-                  href="https://drive.google.com/drive/folders/1uBu1YKsP0TmZ5q9a1Qcmcl90EBRDW9gN?usp=sharing "
+                  href="https://drive.google.com/drive/folders/1uBu1YKsP0TmZ5q9a1Qcmcl90EBRDW9gN?usp=sharing"
                   class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Project Report
-                  <i class="uil uil-external-link-alt button__icon"></i>
+                  <i class="uil uil-external-link-alt button__icon" aria-hidden="true"></i>
                 </a>
                 <a
                   href="https://drive.google.com/file/d/1APmvl22ziIGNuZWAaUxTcTYUA7HDfKWa/view?usp=drive_link"
                   class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Certificate
-                  <i class="uil uil-external-link-alt button__icon"></i>
+                  <i class="uil uil-external-link-alt button__icon" aria-hidden="true"></i>
                 </a>
               </div>
             </div>
-            <!-- ------------------------portfollio 2-------------------- -->
 
+            <!-- 2 -->
             <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/keorne.png" class="portfolio__img" />
+              <img src="assets/img/keorne.png" alt="Kerone Engineering Solutions" class="portfolio__img" />
 
               <div class="portfolio__data">
                 <h3 class="portfolio__title">
-                  Kerone Engineering Solutions Pvt. Ltd. Ambernath, Mumbai
+                  Kerone Engineering Solutions Pvt. Ltd., Ambernath, Mumbai
                 </h3>
                 <p class="portfolio__description">
-                 Worked as a Research Intern, conducted lab-scale drying and heating tests for 10+ industry leaders (e.g.,
-                 Bikaji, DS Group, RCF, HUL). Analyzed results and compiled reports with key findings and recommendations.
+                  Research Intern: conducted lab-scale drying and heating tests for 10+ industry leaders (e.g., Bikaji, DS Group, RCF, HUL). Analyzed results and compiled reports with key findings and recommendations.
                 </p>
                 <a
                   href="https://drive.google.com/drive/folders/1cWV80JoayUpVmM5wNqLgTncDmjZ8XjvX?usp=sharing"
                   class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                Project Report
-                  <i class="uil uil-external-link-alt button__icon"></i>
+                  Project Report
+                  <i class="uil uil-external-link-alt button__icon" aria-hidden="true"></i>
                 </a>
                 <a
                   href="https://drive.google.com/file/d/1HX-Y9LQZIgMTOPmR9bRbJO51g_J8eKbI/view?usp=drive_link"
                   class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                Certificate
-                  <i class="uil uil-external-link-alt button__icon"></i>
+                  Certificate
+                  <i class="uil uil-external-link-alt button__icon" aria-hidden="true"></i>
                 </a>
               </div>
             </div>
 
-            <!-- ------------------------portfollio 3-------------------- -->
+            <!-- 3 -->
             <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/PPL.png" class="portfolio__img" />
+              <img src="assets/img/PPL.png" alt="Paradeep Phosphates Limited" class="portfolio__img" />
 
               <div class="portfolio__data">
                 <h3 class="portfolio__title">Paradeep Phosphates Limited, Paradeep, Odisha</h3>
                 <p class="portfolio__description">
-                  * Worked as a Project Intern at the Sulphuric Acid Plant (SAP), gaining expertise in the DCDA process for
-                     producing sulfuric acid with concentrations up to 98.5%. <br>
-                * Analyzed the Waste Heat Boiler and gaseous exchanger functions and did a project on material balance
-                   calculations for SAP B (1200 MTPD) & C (2000 MTPD) to assess and optimize plant efficiency.
+                  • Project Intern at Sulphuric Acid Plant (SAP), gaining expertise in DCDA process for sulfuric acid up to 98.5%.<br>
+                  • Analyzed Waste Heat Boiler and gas exchangers; performed material balance for SAP B (1200 MTPD) &amp; C (2000 MTPD) to assess and optimize plant efficiency.
                 </p>
                 <a
                   href="https://drive.google.com/drive/folders/1CU7Z1qbi-H3bOMqtrFb4p2osOyXe7f38?usp=sharing"
                   class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Project Report
-                  <i class="uil uil-external-link-alt button__icon"></i>
+                  <i class="uil uil-external-link-alt button__icon" aria-hidden="true"></i>
                 </a>
                 <a
                   href="https://drive.google.com/file/d/1K5CqZtu4pyWb0fRM5kefufQY4_5dRKP4/view?usp=drive_link"
                   class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                Certificate
-                  <i class="uil uil-external-link-alt button__icon"></i>
+                  Certificate
+                  <i class="uil uil-external-link-alt button__icon" aria-hidden="true"></i>
                 </a>
               </div>
             </div>
-            <!-- ------------------------portfollio 4-------------------- -->
+
+            <!-- 4 -->
             <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/cube.jpg" class="portfolio__img" />
+              <img src="assets/img/cube.jpg" alt="CUBE.AI" class="portfolio__img" />
 
               <div class="portfolio__data">
-                <h3 class="portfolio__title">CUBE. AI</h3>
+                <h3 class="portfolio__title">CUBE.AI</h3>
                 <p class="portfolio__description">
-                  Worked as a Business Development Intern, engaging with clients in the hospitality sector to implement AI-
-driven solutions that reduced response times to customer reviews, enhancing customer satisfaction and brand
-perception.
+                  Business Development Intern: engaged with hospitality-sector clients to implement AI-driven solutions that reduced response times to customer reviews, enhancing satisfaction and brand perception.
                 </p>
                 <a
                   href="https://drive.google.com/file/d/1aa9VtEh0gOv9sjrXwOpwcVQHRzpNR_3Z/view?usp=sharing"
                   class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Certificate
-                  <i class="uil uil-external-link-alt button__icon"></i>
+                  <i class="uil uil-external-link-alt button__icon" aria-hidden="true"></i>
                 </a>
               </div>
             </div>
 
-            <!-- ------------------------portfollio 5-------------------- -->
+            <!-- 5 -->
             <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/nitp.jpeg" class="portfolio__img" />
+              <img src="assets/img/nitp.jpeg" alt="NIT Patna" class="portfolio__img" />
 
               <div class="portfolio__data">
                 <h3 class="portfolio__title">NIT Patna</h3>
                 <p class="portfolio__description">
-                 Synthesized an Naphthoquinone derivative employing both reflux and grinding methodologies as an integral component of a green chemistry approach. Characterized the compound through Thin Layer Chromatography (TLC), recrystallization, determination of melting point, and Nuclear Magnetic Resonance Spectroscopy (NMR). 
-                  Subsequently, conducted further evaluations of its Chemosensing capabilities for the detection of metal ions and the synthesis of metal complexes. </p>
-
-              <p> <Bold> Mentor - Dr. Tasneem Parvin , Associate Professor, Head of Department of Chemical Science and Technology (CST) </Bold> 
-                 </p>
+                  Synthesized a naphthoquinone derivative via reflux and grinding as part of a green chemistry approach. Characterized via TLC, recrystallization, melting point, and NMR. Evaluated chemosensing for metal ion detection and synthesized metal complexes.
+                </p>
+                <p><strong>Mentor</strong> — Dr. Tasneem Parvin, Associate Professor &amp; HoD, Chemical Science and Technology (CST)</p>
                 <a
                   href="https://drive.google.com/drive/folders/1Gkeov3vR-D36tGsUqDv-AMe1hBS_OHGq?usp=sharing"
                   class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Project Report
-                  <i class="uil uil-external-link-alt button__icon"></i>
+                  <i class="uil uil-external-link-alt button__icon" aria-hidden="true"></i>
                 </a>
                 <a
                   href="https://drive.google.com/file/d/1Y1G-ZQWoGn5UjUeg306kchjws64ziPzk/view?usp=sharing"
                   class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Certificate
-                  <i class="uil uil-external-link-alt button__icon"></i>
+                  <i class="uil uil-external-link-alt button__icon" aria-hidden="true"></i>
                 </a>
-                 <a
+                <a
                   href="https://drive.google.com/file/d/1PWvTgyiaWMC6EUVDAcKGbo3DxtwbZBlR/view?usp=drive_link"
                   class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
+                  Additional Doc
+                  <i class="uil uil-external-link-alt button__icon" aria-hidden="true"></i>
+                </a>
               </div>
             </div>
           </div>
 
-          <!-- add arrows -->
-          <div class="swiper-button-next">
-            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          <!-- Swiper arrows -->
+          <div class="swiper-button-next" aria-label="Next slide">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon" aria-hidden="true"></i>
           </div>
-          <div class="swiper-button-prev">
-            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          <div class="swiper-button-prev" aria-label="Previous slide">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon" aria-hidden="true"></i>
           </div>
-          <!-- add pagination -->
-          <div class="swiper-pagination"></div>
+
+          <!-- Swiper pagination -->
+          <div class="swiper-pagination" aria-label="Slider pagination"></div>
         </div>
       </section>
 
-      <!--===================== Contact Me =====================-->
-      <section class="contact section" id="contact">
+      <!-- ============ Contact ============ -->
+      <section class="contact section" id="contact" aria-label="Contact">
         <h2 class="section__title">Contact Me</h2>
         <span class="section__subtitle">Get in touch</span>
 
         <div class="contact__container container grid">
           <div>
             <div class="contact__information">
-              <i class="uil uil-calling contact__icon"></i>
-
+              <i class="uil uil-calling contact__icon" aria-hidden="true"></i>
               <div>
                 <h3 class="contact__title">Contact Me</h3>
-                <span class="contact__subtitle"
-                  ><a href="tel:+919430263561"></a>+91 9430263561</span
-                >
+                <span class="contact__subtitle">
+                  <a href="tel:+919430263561">+91 9430263561</a>
+                </span>
               </div>
             </div>
 
             <div class="contact__information">
-              <i class="uil uil-envelope-minus contact__icon"></i>
-
+              <i class="uil uil-envelope-minus contact__icon" aria-hidden="true"></i>
               <div>
                 <h3 class="contact__title">Email</h3>
-                <span class="contact__subtitle"
-                  >Priyanshuraj198@gmail.com</span
-                >
+                <span class="contact__subtitle">
+                  <a href="mailto:Priyanshuraj198@gmail.com">Priyanshuraj198@gmail.com</a>
+                </span>
               </div>
             </div>
 
             <div class="contact__information">
-              <i class="uil uil-map-marker contact__icon"></i>
-
+              <i class="uil uil-map-marker contact__icon" aria-hidden="true"></i>
               <div>
                 <h3 class="contact__title">Location</h3>
-                <span class="contact__subtitle"
-                  >Patna, Bihar, India</span
-                >
+                <span class="contact__subtitle">Patna, Bihar, India</span>
               </div>
             </div>
           </div>
@@ -775,48 +723,46 @@ perception.
           <form action="https://api.web3forms.com/submit" method="POST" class="contact__form grid">
             <!-- Web3Forms Access Key -->
             <input type="hidden" name="access_key" value="e04d2c6f-a234-493e-873f-f56218767ac4">
-          
+
             <!-- Honeypot Spam Protection -->
             <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-          
+
             <div class="contact__inputs grid">
               <div class="contact__content">
                 <label for="name" class="content__label">Name</label>
-                <input type="text" name="name" class="contact__input" required />
+                <input id="name" type="text" name="name" class="contact__input" required />
               </div>
-          
+
               <div class="contact__content">
                 <label for="email" class="content__label">Email</label>
-                <input type="email" name="email" class="contact__input" required />
+                <input id="email" type="email" name="email" class="contact__input" required />
               </div>
             </div>
-          
+
             <div class="contact__content">
               <label for="message" class="content__label">Message</label>
               <textarea name="message" id="message" class="contact__input" rows="7" required></textarea>
             </div>
-          
+
             <div>
               <button type="submit" class="button button--flex">
                 Send Message
-                <i class="uil uil-message button__icon"></i>
+                <i class="uil uil-message button__icon" aria-hidden="true"></i>
               </button>
             </div>
           </form>
-          
+
         </div>
       </section>
     </main>
 
-    <!--================== Footer ===============-->
-    <footer class="footer">
+    <!-- ============ Footer ============ -->
+    <footer class="footer" aria-label="Footer">
       <div class="footer__bg">
         <div class="footer__container container grid">
           <div>
             <h1 class="footer__title">Priyanshu</h1>
-            <span class="footer__subtitle"
-              >Chemical Engineering Student at ICT</span
-            >
+            <span class="footer__subtitle">Chemical Engineering Student at ICT</span>
           </div>
 
           <ul class="footer__links">
@@ -831,36 +777,46 @@ perception.
             </li>
           </ul>
 
-         <div class="footer__socials">
-  <a
-    href="https://www.instagram.com/priyanshu_198/"
-    class="footer__social"
-    target="_blank"
-  >
-    <i class="fa-brands fa-instagram"></i>
-  </a>
-  <a
-  href="https://www.linkedin.com/in/priyanshu198/"
-  target="__blank"
-  class="footer__social"
->
-  <i class="uil uil-linkedin-alt home__icon"></i>
-  <a
-    href="https://x.com/Priyanshu_198"
-    target="__blank"
-    class="footer__social"
-  >
-    <i class="fa-brands fa-x-twitter"></i>
-  </a>
-</div>
-    </footer> 
+          <div class="footer__socials">
+            <a
+              href="https://www.instagram.com/priyanshu_198/"
+              class="footer__social"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/priyanshu198/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__social"
+              aria-label="LinkedIn"
+            >
+              <i class="uil uil-linkedin-alt home__icon" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://x.com/Priyanshu_198"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__social"
+              aria-label="X (Twitter)"
+            >
+              <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-    <!--================== SCROLL TOP ==================-->
-    <a href="#" class="scrollup" id="scroll-up">
-      <i class="uil uil-arrow-up scrollup__icon"></i>
+    <!-- ============ Scroll Up ============ -->
+    <a href="#" class="scrollup" id="scroll-up" aria-label="Scroll to top">
+      <i class="uil uil-arrow-up scrollup__icon" aria-hidden="true"></i>
     </a>
 
-    <script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
+    <!-- ============ Scripts ============ -->
+    <script src="assets/swiper-bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
     <script src="assets/ptj.js"></script>
   </body>
